@@ -1,0 +1,150 @@
+@media screen and (min-width: 531px) and (max-width: 769px) {
+
+    header{
+        padding: 10px 20px;
+    }
+    
+    .logo img{
+        width: 10%;
+        margin-right: 10px;
+    }
+
+    h1 {
+        font-size: 22px;
+        font-weight: 300;
+    }
+
+    .ContainerForm {
+        margin: 30px 0;
+    }
+
+    .HeaderForm{
+        padding: 5px 0;
+    }
+
+    .HeaderForm img{
+        width: 20px;
+        padding-right: 5px;
+    }
+
+    h2{
+        font-size: 18px;
+        padding: 15px 15px;
+    }
+
+    form{
+        padding: 15px;
+    }
+
+    .Campo {
+        margin-bottom: 8px;
+    }
+
+    label{
+        margin-bottom: 5px;
+    }
+
+    .CampoRow{
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .CampoRow .Campo {
+        width: 100%;
+    }
+
+    input, select{
+        padding: 5px;
+    }
+
+    .RadioRow{
+        display: flex;
+        gap: 50px;
+    }
+    
+    .CampoRadio input,.CampoCheckbox input{
+        margin: 10px 0
+    }
+
+    button {
+        margin-top: 10px;
+        padding: 5px;
+        width: 100%;
+    }
+
+    .AreaInfo {
+        margin: 35px 0;
+        gap: 20px;
+    }
+
+    h3 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .ContainerText p{
+        font-size: 14px;
+    }
+
+    .AreaInfo img {
+        width: 100%;
+    }
+
+    .ContainerDestinos{
+        gap: 20px;
+    }
+
+    .BoxDestino, .BoxDestino1, .BoxAnuncio{
+        box-shadow: 0 0 15px 1px grey;
+    }
+
+    .BoxDestino img, .BoxDestino1 img, .BoxAnuncio img{
+        height: 30vh;
+    }
+
+    .BoxDestino p, .BoxDestino1 p {
+        margin: 5px 0;
+    }
+
+    .ContainerDestinosSide{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .BoxAnuncio div {
+        padding: 12px;
+    }
+
+    .BoxAnuncio div p{
+        font-size: 13px;
+    }
+
+    h4{
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    footer {
+        padding: 20px 0;
+    }
+    
+    .ContainerContact {
+        gap: 35px
+    }
+
+    .ContactBox {
+        width: 45%;
+    }
+
+    h5 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .IconsBox img {
+        margin-right: 5px;
+        width: 20px;
+    }
+
+}

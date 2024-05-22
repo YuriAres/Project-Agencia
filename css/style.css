@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+}
+
+header {
+    display: flex;
+    width: 100%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    color: #6014d4
+}
+
+.Banner {
+    display: flex;
+    justify-content: center;
+    background-image: url("../images/bahia.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.ContainerForm {
+    background-color: white;
+    width: 90%;
+}
+
+.HeaderForm {
+    background-color: #6014d4;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+
+.Campo {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: #6014d4;
+    color: white;
+    font-weight: 400;
+}
+
+.AreaInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.ContainerText {
+    width: 90%;
+}
+
+.ContainerDestinos{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.BoxDestino, .BoxDestino1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.BoxDestino p, .BoxDestino1 p {
+    font-weight: bold;
+}
+
+.ContainerDestinosSide {
+    display: flex;
+}
+
+footer {
+    background-color: #6014d4;
+    color: white;
+}
+
+.ContainerContact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ContactBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.IconsBox{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
